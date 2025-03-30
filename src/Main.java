@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     static class AutocompleteSystem {
-        //Set up Trie node structure
+        // Sets up Trie node structure
         private static class TrieNode {
             Map<Character, TrieNode> children = new HashMap<>();
             String word = null;
